@@ -1,0 +1,158 @@
+Microsoft Windows [Version 10.0.19042.2006]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git status
+On branch feature/MAVE-41-consolidation-get-details
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/bankconnectionmanagement/GetBanksITSuite.java
+        modified:   src/test/java/companiesmanagement/DeleteCompaniesITSuite.java
+        modified:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+        modified:   src/test/java/invoicesmanagement/DeleteErpPurchasesInvoiceITSuite.java
+        modified:   src/test/java/invoicesmanagement/DeleteErpPurchasesInvoicesITSuite.java
+        modified:   src/test/java/invoicesmanagement/DeleteErpSalesInvoiceITSuite.java
+        modified:   src/test/java/invoicesmanagement/DeleteErpSalesInvoicesITSuite.java
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git gui
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git status
+On branch feature/MAVE-41-consolidation-get-details
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git add .
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git status
+On branch feature/MAVE-41-consolidation-get-details
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git status
+On branch feature/MAVE-41-consolidation-get-details
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git add .
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git status
+On branch feature/MAVE-41-consolidation-get-details
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git commit -m "MAVE-41: Setup Consolidation details"
+[feature/MAVE-41-consolidation-get-details 04cabfb] MAVE-41: Setup Consolidation details
+ 1 file changed, 106 insertions(+)
+ create mode 100644 src/test/java/consolidationmanagement/GetConsolidationDetailsITSuite.java
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git log
+commit 04cabfbcf0033452aaa0277c7a8a057aea8d6879 (HEAD -> feature/MAVE-41-consolidation-get-details)
+Author: Waqaszafar59 <waqaszafar59@gmail.com>
+Date:   Fri Nov 4 20:08:51 2022 +0500
+
+    MAVE-41: Setup Consolidation details
+
+commit 1b33558fae77c34764a7ab43951636fa0206ebed (origin/master, origin/HEAD, master)
+Merge: 575adc0 0d37748
+Author: Dragos Oloeru <dragos.oloeru@maxcode.net>
+Date:   Fri Oct 21 07:34:54 2022 +0000
+
+    Merged in feature/MAVE-6-delete-category (pull request #23)
+
+    Feature/MAVE-6 delete category
+
+    Approved-by: Larisa Cernaut
+
+commit 0d377486207087488707631628f9dc3fffcf8699
+Author: Dragos Oloeru <dragos.oloeru@maxcode.net>
+Date:   Fri Oct 14 13:31:04 2022 +0300
+
+    MAVE-6: Adress pr comments part 2
+
+commit 66daa2862cc1a21cd6d087540a24ed265dcb114a
+Author: Dragos Oloeru <dragos.oloeru@maxcode.net>
+Date:   Fri Oct 14 10:57:15 2022 +0300
+
+    MAVE-6: Adress pr comments
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>git push
+fatal: The current branch feature/MAVE-41-consolidation-get-details has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature/MAVE-41-consolidation-get-details
+
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>  git push --set-upstream origin feature/MAVE-41-consolidation-get-details
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.77 KiB | 602.00 KiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create pull request for feature/MAVE-41-consolidation-get-details:
+remote:   https://bitbucket.org/archie-tidely/tidely-api-tests/pull-requests/new?source=feature/MAVE-41-consolidation-get-details&t=1
+remote:
+To https://bitbucket.org/archie-tidely/tidely-api-tests.git
+ * [new branch]      feature/MAVE-41-consolidation-get-details -> feature/MAVE-41-consolidation-get-details
+Branch 'feature/MAVE-41-consolidation-get-details' set up to track remote branch 'feature/MAVE-41-consolidation-get-details' from 'origin'.
+
+C:\Users\hp\Downloads\Tidely\tidely-api-tests>
+
+
+
+===================================================================================
+"How to upload files on bitbucket".
+
+git init
+
+git status
+
+git remote add origin "bitbucket link"  (bitbucet clone link)
+
+git add .  (to add all files using dot) or 
+git add --all
+git add path/to/file  (to add some specific files)
+git restore "file" (to restore file in working directory)
+
+git status
+
+git fetch --all    (to fetch all available branches) OR 
+git branch --list (to fetch all available branches)
+git checkout "branch name"  (to switch into the branch)
+
+git commit -m "my first committ"  (for commiting in local repo)
+
+git status
+
+git push --set-upstream origin (Branch Name)>feature/MAVE-41-name
+OR
+git push -f origin master
